@@ -84,9 +84,9 @@ Add the two UI screenshots into the `screenshots/` folder and name them:
 
 Then the images will render here:
 
-![Screenshot 1](screenshots/IMG1.png)
+![Screenshot 1](screenshots/img1.png)
 
-![Screenshot 2](screenshots/IMG2.png)
+![Screenshot 2](screenshots/img2.png)
 
 
 
