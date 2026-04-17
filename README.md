@@ -84,9 +84,8 @@ Add the two UI screenshots into the `screenshots/` folder and name them:
 
 Then the images will render here:
 
-![Screenshot 1](screenshots/img1.png)
-
-![Screenshot 2](screenshots/img2.png)
+![HAM](./sms_spam_classifier/IMG1.png)
+![SPAM](./sms_spam_classifier/IMG2.png)
 
 
 
