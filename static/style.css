@@ -1,0 +1,72 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #c09cd8 0%, #17041f 100%);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h2 {
+    color: #4a4a4a;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+textarea:focus {
+    border-color: #20042b;
+}
+
+button {
+    background: #370347;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+    background: #5a368a;
+    transform: translateY(-2px);
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Color coding for the prediction results */
+.spam { color: #e74c3c; }
+.ham { color: #2ecc71; }

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.env
+# Optional: keep these if you want others to use your trained model immediately
+# model.pkl
+# vectorizer.pkl
