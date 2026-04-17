@@ -77,11 +77,18 @@ http://127.0.0.1:5000/
 
 ## Screenshots
 
-The app UI should look like the images below after you add them to the `screenshots/` folder:
+Add the two UI screenshots into the `screenshots/` folder and name them:
 
-![Ham Prediction](screenshots/ham_prediction.png)
+- `img1.png`
+- `img2.png`
 
-![Spam Prediction](screenshots/spam_prediction.png)
+Then the images will render here:
+
+![Screenshot 1](screenshots/IMG1.png)
+
+![Screenshot 2](screenshots/IMG2.png)
+
+
 
 ## Notes
 
